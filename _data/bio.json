@@ -9,10 +9,7 @@
     "summary": "I am not studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "viinuma", "url": "http://github.com/viinuma" },
-      { "network": "linkedin", "username": "viinuma", "url": "http://linkedin.com/in/viinuma" },
-      { "network": "twitter", "username": "viinuma", "url": "http://twitter.com/viinuma" },
-      { "network": "instagram", "username": "viinuma", "url": "http://instagram.com/viinuma" }
+      { "network": "github", "username": "viinuma", "url": "http://github.com/viinuma" }
     ]
   },
   "interests": [
