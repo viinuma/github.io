@@ -1,0 +1,23 @@
+---
+layout: essay
+type: essay
+title: "E1: UI Basics Technical Essay"
+# All dates must be YYYY-MM-DD format!
+date: 2023-01-24
+published: true
+labels:
+  - WOD
+---
+
+E1: Basics Technical Blog
+
+Intro and BrowserHistory1
+I have no prior coding experience but completed the required readings before starting the first set of WODs. Starting with BrowserHistory1. This first WOD was fairly straightforward. I looked up what to do before executing it and timing myself. I completed it the first and only attempt within the Sd time of 22 minutes. While I could’ve redid it to get a better time, I decided to stop with the first attempt, which essentially is the only attempt. It was neat to though to see the HTML coding work and the completed webpage. Additionally, using Live Server was very helpful. I also changed VS Code to auto save which helped to speed the process though I can see that it could get annoying for the page through Live Server keep reloading as VS Code continues to automatically save. 
+
+BrowserHistory2
+BrowserHistory2 was a lot easier after already having the index.html file set up in BrowserHistory1 and copying the file over for BrowserHistory2. It was also neat to create the CSS file and see how the CSS file applies styles to the index.html file. I heard the term CSS used before, but never understood what it was until learning about it in this class recently. As Dr. Port continues to mention in class, the server and browser are not same, i.e., it needs to be told exactly what to do to run and execute anything. My first attempt I completed the WOD in well under the Rx time, but when I looked it over after, I noticed that the font style was not correct because I forgot to include to add a closing quotation mark. For this reason, I started all over again and redid the WOD. Maybe I should check with the professor whether it warrants starting all over again. That said, I started it over and the second time I forgot to set the timer, but the recording is under 8 minutes. I’m not going to lie; it was frustrating to restart all over again because I forgot one quotation mark.  
+
+BrowserHistory 3
+BrowserHistory3 was a tough one which nearly killed me. You would think on first look of the instructions that setting up the sections into three columns wouldn’t be so difficult. I spent hours working on finding the right code for the three columns. Every time I checked the webpage to execute the code, the three column sections continue to overlap each other. Well, it turns out that I did not clean up CSS file for index.html which I copied over from BrowserHistory2. There was a paragraph setting width that was messing everything that I failed to remove. I made about three unsuccessful attempts, but with the final attempt I was able to complete the WOD in 10 minutes. 
+
+Right now, I don’t think I’m in a good position to give any advice. I suppose what has worked for me for far is to watch the screencasts and do a lot of research to figure out the HTML and CSS codes before attempting the WOD.
