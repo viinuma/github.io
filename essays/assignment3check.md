@@ -9,7 +9,7 @@ labels:
   - Learning
   - Assignment
 ---
-[Click here for screencast presentation covering the areas below] (https://www.dropbox.com/s/6gh0tycdk9bv1ga/Checkpoint%20Assignment%203.mov?dl=0)
+[Click here for screencast presentation covering the areas below](https://www.dropbox.com/s/6gh0tycdk9bv1ga/Checkpoint%20Assignment%203.mov?dl=0)
 
 ### 1.	Show what each page will look like. The pages do not have to be “functional” but the design should clear.
 ![image](https://user-images.githubusercontent.com/85478391/235381166-a173a485-6a1a-4b17-b8ae-e5899343107b.png)<br>
