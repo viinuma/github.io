@@ -12,7 +12,7 @@ labels:
 [Click here for screencast presentation covering the areas below](https://www.dropbox.com/s/6gh0tycdk9bv1ga/Checkpoint%20Assignment%203.mov?dl=0)
 
 ### 1.	Show what each page will look like. The pages do not have to be “functional” but the design should clear.
-![image](https://user-images.githubusercontent.com/85478391/235381166-a173a485-6a1a-4b17-b8ae-e5899343107b.png)<br>
+![image](assignment3_roadmap.png)<br>
 
 ### 2.	Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart!<br>
 Before the user is logged in, the user can view the products and other pages, including the shopping cart. As the user adds products to the shopping cart, the cart counter will go up. The cart counter will be in the navigation bar that will be included on every page. The shopping cart page will be a separate page and accessible by clicking on the cart in the navigation bar. The page will allow the user to edit the quantity of each item and remove items from the cart, but the quantity will be limited to the inventory available. The page will also display the taxes and shipping costs. However, a purchase cannot be made unless the user is logged in. If the user is not logged in when selecting purchase, then the user will be directed to the login page.
