@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Checkpoint Assignment 3 | Valerie Iinuma | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/viinuma.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Valerie Iinuma | Professional Portfolio">
+    <meta property="og:url" content="https://viinuma.github.io/essays/assignment3check.html">
+    <meta property="og:title" content="Checkpoint Assignment 3 | Valerie Iinuma | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/viinuma.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Checkpoint Assignment 3 | Valerie Iinuma | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Valerie Iinuma</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Checkpoint Assignment 3</h1>
+  <span class="date">02 May 2023</span>
+  <hr>
+  <p><a href="https://www.dropbox.com/s/6gh0tycdk9bv1ga/Checkpoint%20Assignment%203.mov?dl=0">Click here for screencast presentation covering the areas below</a></p>
+
+<h3 id="1-show-what-each-page-will-look-like-the-pages-do-not-have-to-be-functional-but-the-design-should-clear">1.	Show what each page will look like. The pages do not have to be “functional” but the design should clear.</h3>
+<p><img src="assignment3_roadmap.png" alt="image" /><br /></p>
+
+<h3 id="2-describe-your-design-for-your-sites-shopping-cart-that-is-will-it-be-a-separate-page-that-the-user-can-view-and-edit-or-will-it-be-integrated-into-the-product-pages-if-so-describe-in-detail-how-this-will-work-on-your-site-provide-several-examples-of-using-the-cart">2.	Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart!<br /></h3>
+<p>Before the user is logged in, the user can view the products and other pages, including the shopping cart. As the user adds products to the shopping cart, the cart counter will go up. The cart counter will be in the navigation bar that will be included on every page. The shopping cart page will be a separate page and accessible by clicking on the cart in the navigation bar. The page will allow the user to edit the quantity of each item and remove items from the cart, but the quantity will be limited to the inventory available. The page will also display the taxes and shipping costs. However, a purchase cannot be made unless the user is logged in. If the user is not logged in when selecting purchase, then the user will be directed to the login page.</p>
+
+<h3 id="3-explain-specifically-how-you-will-use-sessions-to-manage-your-shopping-cart-in-particular-what-shopping-cart-data-will-be-stored-in-the-session-what-data-format-will-be-used-not-what-data-type-but-the-format-like-with-the-data-format-used-for-your-registration-data-use-code-examples-showing-what-data-structures-such-as-arrays-and-their-objects-you-will-use-to-manage-the-shopping-cart-data-and-how-they-will-be-used-in-a-session">3.	Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their objects) you will use to manage the shopping cart data and how they will be used in a session!<br /></h3>
+<p>Sessions will be used to manage quantity selected for the products in the shopping cart. The shopping cart data that will be stored in the session will include the product name, price, and quantity. The data will be stored as an array of objects. 
+Here’s an example of the product array and the objects stored in the array for the data: “point &amp; shoot” [{“name”: “Canon IXUS 50”, “price”: 50.00, “quantity”: 1}]; 
+The cart array will be stored in the session so that the user can move between pages and the session data will be stored in the memory of the server.</p>
+
+<h3 id="4-how-will-you-avoid-access-to-your-application-when-the-user-has-not-logged-in-or-registered-what-are-the-particular-security-concerns-you-must-address-">4.	How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address? <br /></h3>
+<p>Access will be limited to logged in users (or registered for new account). By using cookies, only successfully logged in users will be able to access their invoice. If the user is not logged in then the user will not be able to access the invoice page after completing their purchase in the shopping cart.</p>
+
+<h3 id="5-upon-a-successful-login-how-do-you-provide-personalization-in-your-ui-explain-how-you-did-or-will-do-this-paste-code-if-necessary">5.	Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary)<br /></h3>
+<p>Considering personalization in the navbar or on every page beneath the nav bar once the user is logged in. The text might say, “Aloha, Mr. Name.” The name will also be displayed on the invoice, “Thank you for your purchase, Mr. Name!” Personalization will also be required to email the user the completed invoice for the transaction.</p>
+
+<h3 id="6-if-you-are-working-with-partners-how-will-you-split-up-the-work-in-your-team-so-that-you-are-working-in-parallel-as-effectively-as-possible-that-is-who-is-doing-what-and-when">6.	If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when?<br /></h3>
+<p>I’m not working with partners.</p>
+
+<h3 id="7-how-are-you-approaching-assignment-3-differently-than-assignment-2-">7.	How are you approaching Assignment 3 differently than Assignment 2? <br /></h3>
+<p>Start as early as possible, but think through how to set up the webpages, including how I want to the pages to behave before jumping into coding. I need to focus on organizing my thoughts and approach to carrying out the requirements first.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
